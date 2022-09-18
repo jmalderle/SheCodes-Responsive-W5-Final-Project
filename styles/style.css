@@ -1,0 +1,121 @@
+:root {
+  --primary-color: #a6cea7;
+  --secondary-color: #b5b5ff;
+  --highlight-color: #efc7e1;
+  --owner-name-font-family: "Aboreto", cursive;
+  --intro-font-family: "Arya", sans-serif;
+  --altv-color-1: #f9ac38;
+  --altv-color-2: #d1d1ea;
+  --altv-color-3: #b5cbe3;
+  --altv-color-4: #c6e8b4;
+}
+
+body {
+  font-family: var(--owner-name-font-family) !important;
+}
+h1 {
+  color: #fff;
+  font-family: var(--owner-name-font-family);
+  font-size: 96px !important;
+}
+
+p {
+  line-height: 30px;
+}
+
+.hero {
+  background: var(--altv-color-2);
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  text-align: center;
+  padding: 160px 20px;
+  margin: 0;
+}
+
+.hero:hover {
+  background: var(--altv-color-1);
+}
+
+.intro-text {
+  font-family: var(--intro-font-family);
+  font-size: 36px;
+  margin: 0;
+}
+
+.btn-branding.override {
+  background: var(--secondary-color);
+  color: #fff;
+  border-radius: 4px;
+  line-height: 27px;
+  font-size: 18px;
+  font-family: var(--owner-name-font-family);
+  padding: 15px 30px;
+}
+
+.btn-branding.override:hover {
+  background: var(--highlight-color);
+  color: black;
+  border-radius: 4px;
+  line-height: 27px;
+  font-size: 18px;
+  font-family: var(--owner-name-font-family);
+  padding: 15px 30px;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 60px;
+}
+
+.project-title {
+  font-family: var(--intro-font-family);
+}
+
+.btn-branding.of-projects {
+  border: 1px solid var(--primary-color);
+  color: black;
+  border-radius: 4px;
+  line-height: 27px;
+  font-size: 16px;
+  font-family: var(--owner-name-font-family);
+  padding: 15px 30px;
+  margin: 0;
+}
+
+.btn-branding.of-projects:hover {
+  border: 1px solid var(--highlight-color);
+  text-decoration: underline;
+  border-radius: 4px;
+  line-height: 27px;
+  font-size: 16px;
+  font-family: var(--owner-name-font-family);
+  padding: 15px 30px;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .container {
+    margin: 0;
+  }
+
+  .btn-branding.of-projects {
+    margin: 0 auto;
+  }
+}
+
+/*
+font-family: 'Aboreto', cursive;
+font-family: 'Arya', sans-serif;
+font-family: 'Baskervville', serif;
+font-family: 'Luxurious Script', cursive;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Noto Serif Display', serif;
+font-family: 'Yatra One', cursive;
+*/
