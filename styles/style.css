@@ -8,7 +8,7 @@
 
 :root {
   --primary-color: #a6cea7;
-  --secondary-color: #b5b5ff;
+  --secondary-color: #f9f7fe /*#b5b5ff*/;
   --highlight-color: #b5c1ff;
   --owner-name-font-family: "Noto Serif Display", serif;
   --intro-font-family: "Nunito", sans-serif;
@@ -23,7 +23,6 @@ body {
   font-weight: 200 !important;
 }
 h1 {
-  color: #fff;
   font-family: var(--owner-name-font-family);
   font-size: 96px !important;
 }
@@ -33,7 +32,7 @@ p {
 }
 
 .hero {
-  background: var(--altv-color-2);
+  background: var(--secondary-color);
   /* 
  -webkit-transition: background-color 1s ease-out;
   -moz-transition: background-color 1s ease-out;
@@ -54,7 +53,6 @@ p {
   font-family: var(--intro-font-family);
   font-size: 36px;
   margin: 0;
-  color: #fff;
   font-weight: 300;
 }
 
@@ -69,7 +67,7 @@ p {
 }
 
 .btn-branding.override:hover {
-  background: var(--primary-color);
+  background: var(--altv-color-4);
   color: black;
   border-radius: 4px;
   line-height: 27px;
@@ -82,6 +80,10 @@ p {
   display: flex;
   flex-direction: column;
   padding: 60px 60px;
+}
+
+.inquiry {
+  background: var(--secondary-color);
 }
 
 .project-title {
@@ -108,6 +110,11 @@ p {
   font-size: 16px;
   font-family: var(--owner-name-font-family);
   padding: 15px 30px;
+}
+
+.border-alternative {
+  border: 1px solid #f9f7fe !important;
+  border-width: 15px !important;
 }
 
 @media (max-width: 900px) {
