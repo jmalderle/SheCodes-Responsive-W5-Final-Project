@@ -58,7 +58,7 @@ nav li {
   margin-left: 15px;
 }
 
-nav li.active a {
+nav li .active a {
   color: var(--altv-color-1) !important;
   font-weight: bold !important;
 }
@@ -149,24 +149,49 @@ nav ul {
   margin: 0 auto;
 }
 
-h1.about-page,
-h1.work-page {
+h1 .about-page,
+h1 .work-page {
   font-size: 60px !important;
 }
 
-h2.about-page-subtitle {
+h2 .about-page-subtitle {
   color: var(--altv-color-1);
   font-weight: 300;
   font-size: 22px;
 }
 
-h4.work-page {
+h4 .work-page {
   font-family: var(--secondary-font);
   font-size: 30px;
 }
 
-p.about-page {
+p .about-page {
   font-size: 16px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+}
+
+footer .email-link:hover {
+  color: var(--altv-color-1);
+  text-decoration: none;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  background: var(--altv-color-2);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #fff;
+  background: var(--primary-color);
 }
 
 @media (max-width: 1000px) {
