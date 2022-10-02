@@ -82,7 +82,6 @@ p {
   padding: 60px 60px;
 }
 
-
 .project-title {
   font-family: var(--owner-name-font-family);
   font-weight: 600;
@@ -114,16 +113,33 @@ p {
   border-width: 15px !important;
 }
 
-
 .inquiry {
   background: var(--secondary-color);
 }
 
 .footer-styling {
-    padding: 60px 60px;
+  padding: 60px 60px;
 }
 
-@media (max-width: 900px) {
+/* about page */
+
+.about-section {
+  background: #fff;
+  padding: 160px 20px;
+  margin: 0;
+}
+
+h1.about-title.about-page {
+  font-size: 60px !important;
+}
+
+h2.about-page-subtitle {
+  color: var(--altv-color-1);
+  font-weight: 300;
+  font-size: 22px;
+}
+
+@media (max-width: 1000px) {
   .project-description {
     padding: 0;
     text-align: center;
@@ -136,10 +152,14 @@ p {
   .btn-branding.of-projects {
     margin: 0 auto;
   }
-}
 
-h1.about-title,
-h2.about-title {
-  color: var(--altv-color-1);
-}
+  .project-description.about-page {
+    padding: 40px;
+  }
 
+  .resp-portrait {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
