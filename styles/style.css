@@ -139,8 +139,7 @@ nav ul {
 }
 
 .border-alternative {
-  border: 1px solid var(--secondary-color) !important;
-  border-width: 15px !important;
+  border: 5px solid var(--secondary-color) !important;
 }
 
 /* about page */
@@ -182,6 +181,10 @@ h3.project-title a {
 
 p.copyright.work-page {
   margin: 20px 0 0 0;
+}
+
+a.contact-link {
+  color: var(--highlight-color) !important;
 }
 
 /* contact page */
