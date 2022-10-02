@@ -146,7 +146,8 @@ h1.work-page {
   font-size: 60px !important;
 }
 
-h2.about-page-subtitle {
+h2.about-page-subtitle,
+h3.contact-page {
   color: var(--altv-color-1);
   font-weight: 300;
   font-size: 22px;
@@ -162,6 +163,17 @@ h4.work-page {
   font-family: var(--secondary-font);
   font-size: 40px;
   margin-top: 60px;
+}
+
+h4.contact-page a {
+  font-family: var(--secondary-font);
+  color: #000;
+}
+
+h4.contact-page a:hover {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 /* footer homepage  */
