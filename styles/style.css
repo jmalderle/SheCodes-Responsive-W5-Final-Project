@@ -34,6 +34,7 @@ p {
 
 a {
   color: black;
+  transition: all 100ms ease-in-out;
 }
 
 a:hover {
@@ -138,7 +139,7 @@ nav ul {
 }
 
 .border-alternative {
-  border: 1px solid #f9f7fe !important;
+  border: 1px solid var(--secondary-color) !important;
   border-width: 15px !important;
 }
 
@@ -171,9 +172,19 @@ p.about-page {
 
 h4.work-page {
   font-family: var(--secondary-font);
-  font-size: 40px;
+  font-size: 36px;
   margin-top: 60px;
 }
+
+h3.project-title a {
+  color: black;
+}
+
+p.copyright.work-page {
+  margin: 20px 0 0 0;
+}
+
+/* contact page */
 
 h4.contact-page a {
   font-family: var(--secondary-font);
@@ -215,6 +226,9 @@ footer h3 {
 footer .email-link {
   text-decoration: none;
   color: black;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  transition: all 100ms ease-in-out;
 }
 
 footer .email-link:hover {
@@ -233,8 +247,8 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: #fff;
-  background: var(--primary-color);
+  color: #fff !important;
+  background: var(--primary-color) !important;
 }
 
 p.copyright {
@@ -268,7 +282,6 @@ p.copyright {
 }
 
 @media (max-width: 991px) {
-  
 }
 
 @media (max-width: 540px) {
@@ -293,5 +306,3 @@ p.copyright {
     font-size: 12px;
   }
 }
-
-
