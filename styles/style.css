@@ -82,9 +82,6 @@ p {
   padding: 60px 60px;
 }
 
-.inquiry {
-  background: var(--secondary-color);
-}
 
 .project-title {
   font-family: var(--owner-name-font-family);
@@ -117,6 +114,15 @@ p {
   border-width: 15px !important;
 }
 
+
+.inquiry {
+  background: var(--secondary-color);
+}
+
+.footer-styling {
+    padding: 60px 60px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -136,3 +142,4 @@ h1.about-title,
 h2.about-title {
   color: var(--altv-color-1);
 }
+
