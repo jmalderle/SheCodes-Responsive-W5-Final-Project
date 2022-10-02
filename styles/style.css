@@ -169,6 +169,20 @@ p.about-page {
   font-size: 16px;
 }
 
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer h4 {
+  font-size: 48px;
+}
+
 footer .email-link {
   text-decoration: none;
   color: black;
@@ -217,4 +231,5 @@ footer .social-links a:hover {
     display: flex;
     flex-direction: column;
   }
+
 }
