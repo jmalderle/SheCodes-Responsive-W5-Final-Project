@@ -71,7 +71,7 @@ nav ul {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 60px 20px;
   margin: 0;
 }
 
@@ -137,7 +137,7 @@ nav ul {
 
 .hero-alternative {
   background: #fff;
-  padding: 160px 20px;
+  padding: 66px 20px;
   margin: 0 auto;
 }
 
@@ -160,7 +160,8 @@ p.about-page {
 
 h4.work-page {
   font-family: var(--secondary-font);
-  font-size: 30px;
+  font-size: 40px;
+  margin-top: 60px;
 }
 
 /* footer homepage  */
@@ -175,7 +176,7 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer h4 {
+footer h3 {
   font-size: 48px;
 }
 

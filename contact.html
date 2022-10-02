@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Front-End Developer – June aka Jana Malderle</title>
+    <meta
+      class="description"
+      content="June is a Front-end engineer Based in Germany."
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Arya:wght@400;700&family=Baskervville:ital@0;1&family=Luxurious+Script&family=News+Cycle:wght@400;700&family=Noto+Serif+Display:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&family=Yatra+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Luxurious+Script&family=News+Cycle:wght@400;700&family=Noto+Serif+Display:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,200;1,300;1,400;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap"
       rel="stylesheet"
     />
     <link href="/styles/fontawesome/css/fontawesome.css" rel="stylesheet" />
@@ -35,10 +37,37 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <h1 class="logo d-none d-md-block">
+          <a href="/" alt="Homepage">Studio June</a>
+        </h1>
+        <h1 class="logo d-block d-md-none">
+          <a href="/" alt="Homepage">SJ</a>
+        </h1>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About June">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="June’s work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact June">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero-alternative container">
       <h1 class="work-page">Let’s get in touch</h1>
       <h3 class="mt-5">E-MAIL</h3>
       <a href="mailto:june-studio@gmail.com">june-studio@gmail.com</a>
     </div>
+    <p class="text-center copyright">
+      © 2022 Studio June / Jana Malderle. All rights reserved
+    </p>
   </body>
 </html>
