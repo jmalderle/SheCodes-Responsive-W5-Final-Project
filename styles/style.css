@@ -74,7 +74,7 @@ a:hover {
 }
 
 .btn-branding.override {
-  background: var(--highlight-color);
+  border: 1px solid var(--primary-color);
   color: #fff;
   border-radius: 4px;
   line-height: 27px;
@@ -83,8 +83,9 @@ a:hover {
 }
 
 .btn-branding.override:hover {
-  background: var(--altv-color-4);
+  border: 1px solid var(--highlight-color);
   color: black;
+  text-decoration: underline;
 }
 
 .project-description {
@@ -130,7 +131,7 @@ a:hover {
 .hero-alternative {
   background: #fff;
   padding: 160px 20px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 h1.about-page,
@@ -142,6 +143,11 @@ h2.about-page-subtitle {
   color: var(--altv-color-1);
   font-weight: 300;
   font-size: 22px;
+}
+
+h4.work-page {
+  font-family: var(--secondary-font);
+  font-size: 30px;
 }
 
 p.about-page {
