@@ -133,14 +133,6 @@ nav ul {
   border-width: 15px !important;
 }
 
-.inquiry {
-  background: var(--secondary-color);
-}
-
-.footer-styling {
-  padding: 60px 60px;
-}
-
 /* about page */
 
 .hero-alternative {
@@ -160,14 +152,18 @@ h2.about-page-subtitle {
   font-size: 22px;
 }
 
+p.about-page {
+  font-size: 16px;
+}
+
+/* work page */
+
 h4.work-page {
   font-family: var(--secondary-font);
   font-size: 30px;
 }
 
-p.about-page {
-  font-size: 16px;
-}
+/* footer homepage  */
 
 footer .contact-box {
   background-color: var(--secondary-color);
@@ -208,6 +204,11 @@ footer .social-links a:hover {
   background: var(--primary-color);
 }
 
+p.copyright {
+  font-size: 16px;
+  margin: 100px 0 0 0;
+}
+
 @media (max-width: 1000px) {
   .project-description {
     padding: 0;
@@ -231,5 +232,4 @@ footer .social-links a:hover {
     display: flex;
     flex-direction: column;
   }
-
 }
