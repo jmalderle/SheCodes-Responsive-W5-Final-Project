@@ -8,7 +8,7 @@
 
 :root {
   --primary-color: #a6cea7;
-  --secondary-color: #f9f7fe /*#b5b5ff*/;
+  --secondary-color: #f9f7fe;
   --highlight-color: #b5c1ff;
   --secondary-font: "Noto Serif Display", serif;
   --default-font: "Nunito", sans-serif;
@@ -32,15 +32,6 @@ p {
   font-size: 18px;
 }
 
-a {
-  color: #000 !important;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: var(--primary-color) !important;
-}
-
 .logo {
   font-size: 20px !important;
   font-weight: 600;
@@ -48,6 +39,16 @@ a:hover {
 
 nav {
   padding: 20px 0;
+}
+
+nav a {
+  color: black !important;
+  text-decoration: none !important;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+  color: var(--primary-color) !important;
 }
 
 nav li {
@@ -58,7 +59,8 @@ nav li {
 }
 
 nav li.active a {
-  color: var(--highlight-color);
+  color: var(--altv-color-1) !important;
+  font-weight: bold !important;
 }
 
 nav ul {
@@ -66,28 +68,12 @@ nav ul {
   margin: 0;
 }
 
-nav a {
-  text-decoration: none !important;
-  transition: all 100ms ease-in-out;
-}
-
 .hero {
   background: var(--secondary-color);
-  /* 
- -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
-  */
   text-align: center;
   padding: 160px 20px;
   margin: 0;
 }
-
-/*
-.hero:hover {
-  background: var(--altv-color-4);
-}*/
 
 .intro-text {
   font-family: var(--default-font);
@@ -105,7 +91,6 @@ nav a {
 
 .btn-branding.override {
   border: 1px solid var(--primary-color);
-  color: #fff;
   border-radius: 4px;
   line-height: 27px;
   font-size: 18px;
