@@ -41,6 +41,26 @@ a:hover {
   color: var(--primary-color) !important;
 }
 
+.logo {
+  font-size: 20px !important;
+  font-weight: 600;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
 .hero {
   background: var(--secondary-color);
   /* 
