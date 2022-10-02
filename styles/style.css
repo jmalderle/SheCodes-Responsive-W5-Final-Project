@@ -10,8 +10,8 @@
   --primary-color: #a6cea7;
   --secondary-color: #f9f7fe /*#b5b5ff*/;
   --highlight-color: #b5c1ff;
-  --owner-name-font-family: "Noto Serif Display", serif;
-  --intro-font-family: "Nunito", sans-serif;
+  --secondary-font: "Noto Serif Display", serif;
+  --default-font: "Nunito", sans-serif;
   --altv-color-1: #a6cea7;
   --altv-color-2: #d1d1ea;
   --altv-color-3: #b5cbe3;
@@ -19,16 +19,17 @@
 }
 
 body {
-  font-family: var(--intro-name-font-family) !important;
-  font-weight: 200 !important;
+  font-family: var(--default-font) !important;
+  font-weight: 300 !important;
 }
 h1 {
-  font-family: var(--owner-name-font-family);
+  font-family: var(--secondary-font);
   font-size: 96px !important;
 }
 
 p {
   line-height: 30px;
+  font-size: 18px;
 }
 
 .hero {
@@ -50,10 +51,17 @@ p {
 }*/
 
 .intro-text {
-  font-family: var(--intro-font-family);
+  font-family: var(--default-font);
   font-size: 36px;
   margin: 0;
   font-weight: 300;
+}
+
+.btn-branding.override,
+.btn-branding.ovrride:hover,
+.btn-branding.of-projects,
+.btn-branding.of-projects:hover {
+  padding: 15px 30px;
 }
 
 .btn-branding.override {
@@ -62,8 +70,7 @@ p {
   border-radius: 4px;
   line-height: 27px;
   font-size: 18px;
-  font-family: var(--owner-name-font-family);
-  padding: 15px 30px;
+  font-family: var(--secondary-font);
 }
 
 .btn-branding.override:hover {
@@ -72,8 +79,7 @@ p {
   border-radius: 4px;
   line-height: 27px;
   font-size: 18px;
-  font-family: var(--owner-name-font-family);
-  padding: 15px 30px;
+  font-family: var(--secondary-font);
 }
 
 .project-description {
@@ -83,7 +89,7 @@ p {
 }
 
 .project-title {
-  font-family: var(--owner-name-font-family);
+  font-family: var(--secondary-font);
   font-weight: 600;
 }
 
@@ -93,9 +99,7 @@ p {
   border-radius: 4px;
   line-height: 27px;
   font-size: 16px;
-  font-family: var(--owner-name-font-family);
-  padding: 15px 30px;
-  margin: 0;
+  font-family: var(--secondary-font);
 }
 
 .btn-branding.of-projects:hover {
@@ -104,8 +108,7 @@ p {
   border-radius: 4px;
   line-height: 27px;
   font-size: 16px;
-  font-family: var(--owner-name-font-family);
-  padding: 15px 30px;
+  font-family: var(--secondary-font);
 }
 
 .border-alternative {
@@ -123,13 +126,13 @@ p {
 
 /* about page */
 
-.about-section {
+.hero-alternative {
   background: #fff;
   padding: 160px 20px;
   margin: 0;
 }
 
-h1.about-title.about-page {
+h1.about-page {
   font-size: 60px !important;
 }
 
@@ -137,6 +140,10 @@ h2.about-page-subtitle {
   color: var(--altv-color-1);
   font-weight: 300;
   font-size: 22px;
+}
+
+p.about-page {
+  font-size: 18px !important;
 }
 
 @media (max-width: 1000px) {
