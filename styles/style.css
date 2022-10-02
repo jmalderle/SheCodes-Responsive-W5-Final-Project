@@ -32,6 +32,15 @@ p {
   font-size: 18px;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: var(--primary-color) !important;
+}
+
 .logo {
   font-size: 20px !important;
   font-weight: 600;
@@ -58,7 +67,7 @@ nav li {
   margin-left: 15px;
 }
 
-nav li .active a {
+nav li.active a {
   color: var(--altv-color-1) !important;
   font-weight: bold !important;
 }
@@ -142,7 +151,8 @@ nav ul {
 }
 
 h1.about-page,
-h1.work-page {
+h1.work-page,
+h1.contact-page {
   font-size: 60px !important;
 }
 
@@ -172,8 +182,18 @@ h4.contact-page a {
 
 h4.contact-page a:hover {
   font-family: var(--secondary-font);
-  color: var(--primary-color);
+  color: var(--highlight-color);
   text-decoration: none;
+}
+
+h1.contact-page a {
+  color: #000;
+}
+
+h1.contact-page a:hover {
+  color: var(--highlight-color) !important;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* footer homepage  */
@@ -246,3 +266,32 @@ p.copyright {
     flex-direction: column;
   }
 }
+
+@media (max-width: 991px) {
+  
+}
+
+@media (max-width: 540px) {
+  .hero-alternative.container {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  h2.about-page-subtitle {
+    margin-top: 10px;
+  }
+
+  .btn.btn-branding.of-projects {
+    margin-bottom: 50px;
+  }
+
+  .preview-pics {
+    margin-bottom: 50px;
+  }
+
+  p.copyright {
+    font-size: 12px;
+  }
+}
+
+
